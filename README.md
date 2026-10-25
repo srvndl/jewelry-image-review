@@ -1,6 +1,6 @@
 # Jewelry Image Review by Jewels Retouch
 
-A free local browser utility, desktop Chrome extension, complete 2027 guide, practice-led method report, and ten six-part presentations for the whole jewelry trade.
+A free local browser utility, desktop Chrome extension, complete 2027 guide, AI-assisted framework proposal, and ten six-part presentations for the whole jewelry trade.
 
 Open index.html through a local HTTP server, or use GitHub Pages. No runtime dependencies, analytics, remote scripts, image upload or automatic storage. The browser tool keeps the tested extension review.js and review.css unchanged. Review selections are manual judgments, not accuracy guarantees.
 
@@ -12,7 +12,7 @@ Download jewelry-image-review-1.0.0.zip and follow extension.html. This is an un
 
 ## Research and content
 
-The founder-authored practice-led method report proposes a review framework. It reports no experiment or measured benchmark and has not been peer reviewed. Source Markdown, rubric, logging schema and a printable PDF are in downloads/. The 2027 guide is forward-looking guidance written on 25 October 2026, not a claim about future releases.
+The AI-assisted framework proposal was prepared for Jewels Retouch. AI assistance covered document drafting, proposed review criteria and companion schemas, and implementation of the manual image-review utility. Publisher review and verifiable author-led research evidence remain outstanding before scholarly-repository submission. This is not established as the founder’s completed research; no original human-labeled dataset, completed field trial or reviewer-agreement measurement is reported. It reports no measured benchmark and has not been peer reviewed. Source Markdown, rubric, logging schema and a printable PDF are in downloads/. The 2027 guide is forward-looking guidance written on 25 October 2026, not a claim about future releases.
 
 ## Licensing
 

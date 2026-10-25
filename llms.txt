@@ -1,16 +1,16 @@
 # Jewelry Image Review and trade resources by Jewels Retouch
 
-> Free local manual jewelry-image review, a buying guide, a practice-led method report and workflow presentations for the whole jewelry trade.
+> Free local manual jewelry-image review, a buying guide, an AI-assisted framework proposal and workflow presentations for the whole jewelry trade.
 
 For producers, manufacturers, wholesalers, retailers, resellers, brands, exporters, photographers, studios and independent jewelers. Published by Jewels Retouch; guidance dated 25 October 2026.
 
-The review tool compares two user-selected local images and records eight manual checks. It does not automatically detect changes, certify accuracy, upload selected images or save reviews automatically. JSON export is a user-requested local download. The method report proposes a review framework; it reports no measured benchmark and has not been peer reviewed. The 2027 guide is forward-looking guidance written in October 2026.
+The review tool compares two user-selected local images and records eight manual checks. It does not automatically detect changes, certify accuracy, upload selected images or save reviews automatically. JSON export is a user-requested local download. The report is an AI-assisted framework proposal prepared for Jewels Retouch, with publisher review and verifiable author-led research evidence still pending. It reports no measured benchmark and has not been peer reviewed. The 2027 guide is forward-looking guidance written in October 2026.
 
 ## Review and complete reading sources
 
 - [Free browser review tool](https://srvndl.github.io/jewelry-image-review/): Compare source and edited jewelry photos locally.
 - [2027 guide — complete Markdown](https://srvndl.github.io/jewelry-image-review/downloads/guide-2027.md): Choose a workflow by the work to approve.
-- [Product identity before polish — complete Markdown](https://srvndl.github.io/jewelry-image-review/downloads/product-identity-before-polish.md): Practice-led still-image and video acceptance method.
+- [Product identity before polish — complete Markdown](https://srvndl.github.io/jewelry-image-review/downloads/product-identity-before-polish.md): AI-assisted still-image and video acceptance proposal; publisher review pending.
 - [Acceptance rubric](https://srvndl.github.io/jewelry-image-review/downloads/acceptance-rubric.json): Companion machine-readable criteria.
 - [Trial-log schema](https://srvndl.github.io/jewelry-image-review/downloads/trial-log.schema.json): Companion logging structure.
 

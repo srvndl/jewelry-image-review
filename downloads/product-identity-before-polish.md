@@ -1,10 +1,10 @@
 # Product identity before polish: an acceptance framework for AI jewelry images and video
 
-Serdar Arniyazov, founder, Jewels Retouch
+Prepared for Jewels Retouch · Serdar Arniyazov, founder
 
-Practice-led method report · Version 1.0 · 25 October 2026
+AI-assisted framework proposal · Version 1.0 · 25 October 2026
 
-Founder-authored practice-led method report. This report proposes a review framework; it reports no measured benchmark and has not been peer reviewed.
+This report proposes a review framework for publisher review. It reports no measured benchmark and has not been peer reviewed.
 
 ## Abstract
 
@@ -92,9 +92,13 @@ A future validation plan should define item selection and defect categories befo
 
 Temporal validation should separately examine complete playback, timestamp checks, and frame-level review. Resource evaluation should distinguish processing, operator review, corrections, and final exports. Report exclusions and unresolved cases. Publishing that evidence could refine the rubric; no such results are implied here.
 
-## 9. Authorship, affiliation, and conflict of interest
+## 9. Publisher background and conflict of interest
 
-Serdar Arniyazov is the founder of Jewels Retouch, the platform discussed in this report, and remains active in the jewelry business. The public About page records more than ten years of gold jewelry sales experience across Europe and the Baltics. The author has a commercial interest in the platform. This founder-authored report presents an original proposed method, not independent product certification or a comparative endorsement.
+Serdar Arniyazov is the founder of Jewels Retouch, the platform discussed in this report, and remains active in the jewelry business. The public About page records more than ten years of gold jewelry sales experience across Europe and the Baltics. The publisher has a commercial interest in the platform. This report is prepared for the platform as a proposed review method. It does not provide independent product certification or a comparative endorsement.
+
+## 10. AI assistance and preparation status
+
+Codex (OpenAI) was used on 25 October 2026 to structure and draft this document, propose the nine review criteria and companion JSON schemas, and implement a manual image-review utility. Product context was checked against the public pages listed below. The proposal has not been established as the founder's completed research, and this version contains no original human-labeled dataset, completed field trial, or reviewer-agreement measurement. Publisher review and verifiable author-led research evidence remain outstanding before any scholarly-repository submission. Software checks of the companion utility are separate from scientific validation of this framework.
 
 ## Primary references consulted
 
