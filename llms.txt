@@ -1,0 +1,36 @@
+# Jewelry Image Review and trade resources by Jewels Retouch
+
+> Free local manual jewelry-image review, a buying guide, a practice-led method report and workflow presentations for the whole jewelry trade.
+
+For producers, manufacturers, wholesalers, retailers, resellers, brands, exporters, photographers, studios and independent jewelers. Published by Jewels Retouch; guidance dated 25 October 2026.
+
+The review tool compares two user-selected local images and records eight manual checks. It does not automatically detect changes, certify accuracy, upload selected images or save reviews automatically. JSON export is a user-requested local download. The method report proposes a review framework; it reports no measured benchmark and has not been peer reviewed. The 2027 guide is forward-looking guidance written in October 2026.
+
+## Review and complete reading sources
+
+- [Free browser review tool](https://srvndl.github.io/jewelry-image-review/): Compare source and edited jewelry photos locally.
+- [2027 guide — complete Markdown](https://srvndl.github.io/jewelry-image-review/downloads/guide-2027.md): Choose a workflow by the work to approve.
+- [Product identity before polish — complete Markdown](https://srvndl.github.io/jewelry-image-review/downloads/product-identity-before-polish.md): Practice-led still-image and video acceptance method.
+- [Acceptance rubric](https://srvndl.github.io/jewelry-image-review/downloads/acceptance-rubric.json): Companion machine-readable criteria.
+- [Trial-log schema](https://srvndl.github.io/jewelry-image-review/downloads/trial-log.schema.json): Companion logging structure.
+
+## Complete presentation sources
+
+- [Jewelry photo retouching: approve identity before polish](https://srvndl.github.io/jewelry-image-review/downloads/gamma-01-jewelry-photo-retouching-approval.md): Complete six-part Markdown.
+- [Jewelry collection photos for producers: model codes to approved exports](https://srvndl.github.io/jewelry-image-review/downloads/gamma-02-producer-collection-photo-workflow.md): Complete six-part Markdown.
+- [Wholesale jewelry line sheets: turn approved photos into buyer selections](https://srvndl.github.io/jewelry-image-review/downloads/gamma-03-wholesale-jewelry-line-sheet-images.md): Complete six-part Markdown.
+- [Jewelry image editing for retailers and resellers: show the item being sold](https://srvndl.github.io/jewelry-image-review/downloads/gamma-04-retail-reseller-jewelry-image-editing.md): Complete six-part Markdown.
+- [Gold-tone consistency in jewelry photos: use one trusted reference](https://srvndl.github.io/jewelry-image-review/downloads/gamma-05-gold-tone-consistency-jewelry.md): Complete six-part Markdown.
+- [Gemstone and prong fidelity: a jewelry image review checklist](https://srvndl.github.io/jewelry-image-review/downloads/gamma-06-gemstone-prong-fidelity-review.md): Complete six-part Markdown.
+- [Model-worn jewelry editing: start with jewelry already worn](https://srvndl.github.io/jewelry-image-review/downloads/gamma-07-already-worn-jewelry-source-photos.md): Complete six-part Markdown.
+- [AI jewelry video: a three-pass approval workflow](https://srvndl.github.io/jewelry-image-review/downloads/gamma-08-ai-jewelry-video-approval.md): Complete six-part Markdown.
+- [Jewelry photo trials and retry credits: budget for accepted work](https://srvndl.github.io/jewelry-image-review/downloads/gamma-09-jewelry-photo-trial-credit-planning.md): Complete six-part Markdown.
+- [AI jewelry editing tools for 2027: a practical selection scorecard](https://srvndl.github.io/jewelry-image-review/downloads/gamma-10-2027-ai-jewelry-tool-evaluation.md): Complete six-part Markdown.
+
+## Product and policy context
+
+- [About Jewels Retouch](https://jewelsretouch.com/about): Platform affiliation and jewelry-trade background.
+- [Current pricing](https://jewelsretouch.com/pricing): Verify current displayed action costs and terms.
+- [Retry, credit-back and refund terms](https://jewelsretouch.com/refund): Verify eligibility and limits.
+- [Resource-site privacy](https://srvndl.github.io/jewelry-image-review/privacy.html): Local image processing and GitHub hosting logs.
+- [Content licensing](https://srvndl.github.io/jewelry-image-review/CONTENT-LICENSE.md): Report, rubric and schema are CC BY 4.0; guide and presentations retain copyright. Code is MIT; brand marks remain owned.
