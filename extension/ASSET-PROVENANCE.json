@@ -1,0 +1,56 @@
+[
+  {
+    "file": "assets/icon-16.png",
+    "source": "https://jewelsretouch.com/icon-16.png",
+    "sha256": "c7dd08d9e5f444e51c788601a0fbc52acd9df33cd696d5f66e5d83ab13d10898",
+    "dimensions": [
+      16,
+      16
+    ],
+    "format": "PNG",
+    "role": "Unaltered existing live brand asset"
+  },
+  {
+    "file": "assets/icon-32.png",
+    "source": "https://jewelsretouch.com/icon-32.png",
+    "sha256": "8841a5b68e839257eb426a5fc9a7392eed193362f7db8628ddd234e410d5e183",
+    "dimensions": [
+      32,
+      32
+    ],
+    "format": "PNG",
+    "role": "Unaltered existing live brand asset"
+  },
+  {
+    "file": "assets/icon-48.png",
+    "source": "https://jewelsretouch.com/_next/image?url=%2Ficon-512.png&w=48&q=75",
+    "sha256": "ec645c90c7b3636724c2318b419a88271e11d332f320bc1e6a64e61a0b7f49e0",
+    "dimensions": [
+      48,
+      48
+    ],
+    "format": "PNG",
+    "role": "Unaltered PNG response from live image optimizer, existing brand asset resized by server; Accept: image/png"
+  },
+  {
+    "file": "assets/icon-128.png",
+    "source": "https://jewelsretouch.com/_next/image?url=%2Ficon-512.png&w=128&q=75",
+    "sha256": "f3ea7051693562b34def4c168d2661d42964f7d9deb8c769c4ace62ad564daac",
+    "dimensions": [
+      128,
+      128
+    ],
+    "format": "PNG",
+    "role": "Unaltered PNG response from live image optimizer, existing brand asset resized by server; Accept: image/png"
+  },
+  {
+    "file": "assets/brand.png",
+    "source": "https://jewelsretouch.com/icon-512.png",
+    "sha256": "c4b57cde46bc596fa8920df959290dba68d67a8f97333da59f4c6a0483695469",
+    "dimensions": [
+      512,
+      512
+    ],
+    "role": "Exact copy of parent-verified unaltered live brand asset"
+  }
+]

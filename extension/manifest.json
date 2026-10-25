@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Jewelry Image Review by Jewels Retouch",
+  "short_name": "Jewelry Image Review",
+  "version": "1.0.0",
+  "description": "Compare source and edited jewelry images locally. Record a manual detail checklist and export your review.",
+  "action": {
+    "default_title": "Open Jewelry Image Review"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "assets/icon-16.png",
+    "32": "assets/icon-32.png",
+    "48": "assets/icon-48.png",
+    "128": "assets/icon-128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' blob:; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'"
+  }
+}

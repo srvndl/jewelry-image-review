@@ -1,0 +1,146 @@
+{
+  "reportVersion": "1.0",
+  "date": "2026-10-25",
+  "status": "proposed practice-led rubric; unvalidated",
+  "criteria": [
+    {
+      "criterionId": "identity",
+      "title": "Item correspondence and silhouette",
+      "check": "Compare item/model code, completeness of pair or set, outline, and visible proportions.",
+      "criticalFail": "Wrong item or changed product outline.",
+      "states": [
+        "pass",
+        "fail",
+        "unverified"
+      ],
+      "applicability": "all applicable outputs",
+      "cosmeticExamples": [],
+      "rule": "Severity is assigned to the observed discrepancy for its declared use; critical failures block acceptance."
+    },
+    {
+      "criterionId": "stones",
+      "title": "Stone layout and appearance",
+      "check": "Compare visible count, arrangement, spacing, and color appearance with available evidence.",
+      "criticalFail": "Added or removed stones or altered layout.",
+      "states": [
+        "pass",
+        "fail",
+        "unverified"
+      ],
+      "applicability": "all applicable outputs",
+      "cosmeticExamples": [],
+      "rule": "Severity is assigned to the observed discrepancy for its declared use; critical failures block acceptance."
+    },
+    {
+      "criterionId": "construction",
+      "title": "Settings and connections",
+      "check": "Trace prongs, bezels, galleries, chain links, clasps, and attachments.",
+      "criticalFail": "Invented, missing, or broken visible construction.",
+      "states": [
+        "pass",
+        "fail",
+        "unverified"
+      ],
+      "applicability": "all applicable outputs",
+      "cosmeticExamples": [],
+      "rule": "Severity is assigned to the observed discrepancy for its declared use; critical failures block acceptance."
+    },
+    {
+      "criterionId": "marks_condition",
+      "title": "Marks, engraving, and condition",
+      "check": "Compare readable marks and relevant wear or distinctive item features.",
+      "criticalFail": "Changed text or hidden selling-relevant condition.",
+      "states": [
+        "pass",
+        "fail",
+        "unverified"
+      ],
+      "applicability": "all applicable outputs",
+      "cosmeticExamples": [],
+      "rule": "Severity is assigned to the observed discrepancy for its declared use; critical failures block acceptance."
+    },
+    {
+      "criterionId": "material_tone",
+      "title": "Material and tone",
+      "check": "Use a trusted appearance reference and consistent viewing conditions.",
+      "criticalFail": "Material substitution or unsupported material implication.",
+      "states": [
+        "pass",
+        "fail",
+        "unverified"
+      ],
+      "applicability": "all applicable outputs",
+      "cosmeticExamples": [],
+      "rule": "Severity is assigned to the observed discrepancy for its declared use; critical failures block acceptance."
+    },
+    {
+      "criterionId": "edges_optics",
+      "title": "Boundaries, reflections, and transparency",
+      "check": "Review edges, openings, facets, shadows, and reflection transitions.",
+      "criticalFail": "Artifact changes apparent product structure.",
+      "states": [
+        "pass",
+        "fail",
+        "unverified"
+      ],
+      "applicability": "all applicable outputs",
+      "cosmeticExamples": [
+        "Minor background artifact without product change"
+      ],
+      "rule": "Severity is assigned to the observed discrepancy for its declared use; critical failures block acceptance."
+    },
+    {
+      "criterionId": "worn_contact",
+      "title": "Worn contact and scale",
+      "check": "Compare attachment, placement, and apparent proportions to the already-worn source.",
+      "criticalFail": "Implausible attachment or materially changed proportions.",
+      "states": [
+        "pass",
+        "fail",
+        "unverified"
+      ],
+      "applicability": "worn source",
+      "cosmeticExamples": [],
+      "rule": "Severity is assigned to the observed discrepancy for its declared use; critical failures block acceptance."
+    },
+    {
+      "criterionId": "destination",
+      "title": "Destination and collection presentation",
+      "check": "Review crop, framing, readability, background, and collection consistency.",
+      "criticalFail": "Required product evidence is concealed.",
+      "states": [
+        "pass",
+        "fail",
+        "unverified"
+      ],
+      "applicability": "all applicable outputs",
+      "cosmeticExamples": [
+        "Inconsistent framing without hidden required detail"
+      ],
+      "rule": "Severity is assigned to the observed discrepancy for its declared use; critical failures block acceptance."
+    },
+    {
+      "criterionId": "temporal",
+      "title": "Temporal identity and implied behavior",
+      "check": "Review the entire video, transitions, and new views; compare with sources.",
+      "criticalFail": "Changing construction or unsupported product mechanism.",
+      "states": [
+        "pass",
+        "fail",
+        "unverified"
+      ],
+      "applicability": "video",
+      "cosmeticExamples": [],
+      "rule": "Severity is assigned to the observed discrepancy for its declared use; critical failures block acceptance."
+    }
+  ],
+  "decisionRules": {
+    "criticalFail": "Reject this output version for intended use.",
+    "requiredUnverified": "Block approval until evidence resolves the required criterion.",
+    "cosmeticFail": "Route to a defined correction or manual finishing; reinspect final output.",
+    "notApplicable": "Record applicability=false with a reason; do not fabricate a pass.",
+    "approval": "All required applicable criteria supported, no unresolved critical failures, and named destination approved.",
+    "collection": "Risk-based sample tests the process; each released item/output still needs approval.",
+    "video": "Approve source then review full clip; timestamp checks alone do not prove all frames correct."
+  }
+}

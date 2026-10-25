@@ -1,0 +1,276 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Jewelry imagery acceptance trial log",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "trialId",
+    "itemCode",
+    "source",
+    "output",
+    "workflow",
+    "intendedUse",
+    "requestedTreatment",
+    "references",
+    "reviews",
+    "decision",
+    "reviewer",
+    "reviewedAt",
+    "resources"
+  ],
+  "properties": {
+    "trialId": {
+      "type": "string",
+      "minLength": 1
+    },
+    "itemCode": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "file",
+        "sha256"
+      ],
+      "properties": {
+        "file": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "additionalProperties": false
+    },
+    "output": {
+      "type": "object",
+      "required": [
+        "file",
+        "version",
+        "sha256"
+      ],
+      "properties": {
+        "file": {
+          "type": "string"
+        },
+        "version": {
+          "type": "string"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "additionalProperties": false
+    },
+    "workflow": {
+      "enum": [
+        "catalog",
+        "editorial",
+        "worn-source",
+        "video-photo-led",
+        "video-reference-led",
+        "manual",
+        "hybrid"
+      ]
+    },
+    "intendedUse": {
+      "type": "string"
+    },
+    "requestedTreatment": {
+      "type": "string"
+    },
+    "references": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "reference",
+          "role",
+          "authorization"
+        ],
+        "properties": {
+          "reference": {
+            "type": "string"
+          },
+          "role": {
+            "type": "string"
+          },
+          "authorization": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "reviews": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "criterionId",
+          "applicable",
+          "requiredForUse",
+          "state",
+          "severity",
+          "reason",
+          "evidenceLocation"
+        ],
+        "properties": {
+          "criterionId": {
+            "enum": [
+              "identity",
+              "stones",
+              "construction",
+              "marks_condition",
+              "material_tone",
+              "edges_optics",
+              "worn_contact",
+              "destination",
+              "temporal"
+            ]
+          },
+          "applicable": {
+            "type": "boolean"
+          },
+          "requiredForUse": {
+            "type": "boolean"
+          },
+          "state": {
+            "enum": [
+              "pass",
+              "fail",
+              "unverified",
+              "not_applicable"
+            ]
+          },
+          "severity": {
+            "enum": [
+              "critical",
+              "cosmetic",
+              null
+            ]
+          },
+          "reason": {
+            "type": "string"
+          },
+          "evidenceLocation": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "decision": {
+      "enum": [
+        "approved_for_named_use",
+        "rejected",
+        "needs_correction",
+        "needs_manual_finishing",
+        "needs_new_capture"
+      ]
+    },
+    "reviewer": {
+      "type": "string"
+    },
+    "reviewedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "resources": {
+      "type": "object",
+      "required": [
+        "creditsUsed",
+        "reviewMinutes",
+        "finishingMinutes",
+        "acceptedExports",
+        "remedy"
+      ],
+      "properties": {
+        "creditsUsed": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "reviewMinutes": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "finishingMinutes": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "acceptedExports": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 0
+        },
+        "remedy": {
+          "enum": [
+            "none",
+            "one_retry_credit",
+            "one_returned_credit",
+            "other_documented",
+            null
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "video": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "properties": {
+        "durationSeconds": {
+          "type": "number",
+          "minimum": 0
+        },
+        "fullPlaybackReviewed": {
+          "type": "boolean"
+        },
+        "findings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "timestampSeconds",
+              "observation"
+            ],
+            "properties": {
+              "timestampSeconds": {
+                "type": "number",
+                "minimum": 0
+              },
+              "observation": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "$comment": "No example observations or empirical data are supplied. Validate coverage and acceptance rules in addition to structural schema validation."
+}
